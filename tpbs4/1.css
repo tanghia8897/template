@@ -1,0 +1,210 @@
+*{margin: 0; padding: 0;}
+
+.btn.btn-success {}
+
+.body4 .h5.display-4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #;
+    color: #FF3366;
+}
+
+.body4 h4 {
+    text-transform: uppercase;
+}
+
+.body3 .h5.display-4 {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FF3366;
+}
+
+.body3 h4 {
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.navbar .navbar-light .bg-faded .navbar {
+    background-color: transparent;
+}
+.body2 .btn.btn-success {
+    background-color: #FF3366;
+    border-radius: 0px solid black;
+    border-radius: 0px;
+    border-color: #FF3366;
+    width: 145px;
+    text-transform: uppercase;
+}
+
+.body2 .h5.display-4 {
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    line-height: 47px;
+}
+
+.body2 h4 {
+    text-transform: uppercase;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.body2 .carousel-caption {
+    position: relative;
+    bottom: 389px;
+    left: -265px;
+}
+
+.carousel-caption {}
+
+.body3 .carousel-caption.text-sm-left {
+    position: relative;
+    top: -400px;
+    left: 0px;
+}
+
+.body1 .carousel-inner .body2 img {width: 100%;height: 100%;background-size: cover;}
+
+li.nav-item.item {
+    background-color: #DDDDDD;
+    width: 204px;
+    height: 50px;
+    display: block;
+    position: relative;
+    left: 17px;
+    top: -1px;
+}
+
+.item i.fa.fa-shopping-cart {
+    position: relative;
+    top: 14px;
+    left: 28px;
+}
+
+.item a.nav-link {
+    position: relative;
+    top: -26px;
+    left: 40px;
+}
+
+.banner3 nav.navbar.navbar-light.bg-faded {
+    background-color: #eeeeee;
+}
+
+.banner3 a.nav-link {
+    padding-top: 15px;
+    padding-left: 9px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+div#bn3 {
+    background-color: #eeeeee;
+}
+
+a.navbar-brand.nutbanner3 {
+    color: white;
+    background-color: black;
+    width: 185px;
+    display: block;
+    height: 49px;
+    padding-left: 23px;
+    padding-top: 10px;
+    margin-left: -15px;
+}
+
+.banner3 button.navbar-toggler.hidden-sm-up.bn3tren {
+    background-color: #EEEEEE;
+}
+
+
+.banner3 {
+    background-color: #EEEEEE;
+    height: 53px;
+    border-bottom: 3px solid #FF3366;
+}
+
+i.fa.fa-search {
+    position: relative;
+    top: -18px;
+    left: -35px;
+}
+
+input.form-control {
+    position: relative;
+    top: -21px;
+}
+
+img.img-fluid {
+    position: relative;
+    top: -14px;
+}
+
+.bn2 i.fa.fa-phone {
+    display: block;
+    float: left;
+    color: #;
+    color: #FF3366;
+    margin-right: 10px;
+    position: relative;
+    top: -10px;
+}
+
+.bn2 p {
+    font-size: 13px;
+    color: gray;
+    margin-top: -5px;
+}
+
+.bn2 h5 {
+    margin-top: -20px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 22px;
+}
+
+.bn2 i.fa.fa-dollar {
+    color: #FF3366;
+    display: block;
+    float: left;
+    border-radius: 5px solid black;
+    margin-right: 12px;
+    position: relative;
+    top: -9px;
+}
+
+.bn2 img.img-fluid {
+}
+
+.banner2.pt-3.bn2 {
+    height: 100px;
+}
+
+.bn1phai .nav-item a.nav-link {
+    color: gray;
+    padding-top: 13px;
+}
+
+.bn1 ul li a.nav-link {
+}
+
+.banner1 a.navbar-brand {
+    color: gray;
+    font-size: 13px;
+    padding-top: 17px;
+}
+
+.banner1.pb-1 {
+    background-color: #333333;
+}
+
+
+nav.navbar.navbar-light.bg-faded {
+    background-color: #333333;
+    height: 40px;
+    font-family: 'Work Sans', sans-serif;
+    padding-top: 1px;
+}   
+.banner1 .pb-1 {
+    background-color: #333333;
+
+}

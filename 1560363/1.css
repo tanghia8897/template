@@ -1,0 +1,259 @@
+*{margin:0; padding: 0}
+
+.nuts a {
+    border: 1px solid;
+    font-size: 15px;
+    display: block;
+    margin-top: -15px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nuts a:active {
+    background-color: blue;
+    color: white;
+}
+
+.cllb2 p {font-size: 14px;line-height: 4px;margin-top: 7px;margin-left: 12px;}
+
+
+.email #idemail {
+    width: 202px;
+}
+
+.diachi #iddiachi {
+    width: 338px;
+}
+
+.email {
+    padding-left: 32px;
+}
+
+.gioitinh {
+    padding-left: 20px;
+}
+
+.dienthoai {margin-left: -2px;}
+
+.diachi {
+    padding-left: 22px;
+}
+
+.hoten #idhoten {
+    width: 274px;
+}
+
+.ms {
+    padding-left: 26px;
+}
+
+.ms #idmaso {
+    width: 155px;
+}
+
+input#idok {
+    position: absolute;
+    right: 28px;
+
+    top: 500px;
+}
+
+input#idxoa {
+    position: absolute;
+    top: 535px;
+    left: 312px;
+}
+
+input#iddangky {position: absolute;top: 535px;left: 229px;}
+i.fa {
+    border: 1px solid gray;
+    width: 20px;
+    text-align: center;
+}
+
+label {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.nuts button {
+    margin-top: 10px;
+    width: 25px;
+}
+
+.cllb2 {position: absolute;top: 382px;left: 340px;width: 200px;height: 179px;}
+
+.cllb1 p {
+    font-size: 14px;
+    line-height: 4px;
+    margin-top: 7px;
+}
+.cllb1 {position: absolute;top: 384px;left: 60px;width: 200px;height: 176px;}
+
+.error {
+    color: red;
+    font-size: 12px;
+}
+
+input#idNgay {
+    width: 80px;
+}
+input#idok {
+    position: absolute;
+    right: 28px;
+    top: 532px;
+}
+
+input#idxoa {
+    position: absolute;
+    top: 564px;
+    left: 312px;
+}
+
+input#iddangky {position: absolute;top: 564px;left: 229px;}
+
+.nuts {
+    position: absolute;
+    left: 290px;
+    top: 420px;
+}
+i.fa {
+    border: 1px solid gray;
+    width: 20px;
+    text-align: center;
+}
+label {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+label#lb {
+    position: absolute;
+    left: 300px;
+    top: 327px;
+}
+
+input.lb2 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: 340px;
+    margin-top: 50px;
+}
+
+input.lb1 {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: 30px;
+    position: relative;
+}
+
+button.xoa {
+    position: absolute;
+    top: 521px;
+    left: 590px;
+    font-size: 12px;
+    border: 1px solid #003366;
+    border-radius: 2px;
+}
+
+button.dk {
+    position: absolute;
+    top: 521px;
+    left: 523px;
+    font-size: 12px;
+    border: 1px solid #003366;
+    border-radius: 2px;
+}
+
+button.ok {
+    position: absolute;
+    top: 496px;
+    left: 803px;
+    font-size: 12px;
+    border: 1px solid #003366;
+    border-radius: 2px;
+}
+
+.nut i {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    display: block;
+    border: 1px solid #003366;
+    margin-top: -14px;
+    text-align: center;
+    margin-left: -6px;
+    border-radius: 3px;
+}
+
+.nut {margin-left: 217px;padding-top: 40px;}
+
+.form2 {
+    width: 201px;
+    position: absolute;
+    top: 328px;
+    left: 600px;
+}
+
+.form1 {width: 201px;}
+
+.form2 .cacmondachon {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #003366;
+    border-radius: 2px;
+}
+
+.cacmonhoc {
+    width: 200px;
+    height: 150px;
+    float: left;
+    border: 1px solid #003366;
+    border-radius: 2px;
+}
+
+hr {
+    width: 570px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.ipNgay {
+    width: 77px;
+}
+
+form.ipForm {
+    padding-left: 50px;
+}
+
+.ipForm input {
+    margin-top: 10px;
+    height: 25px;
+    border: 1px solid #003366;
+    border-radius: 2px;
+}
+.ipForm input:hover {
+    background-color: rgba(128, 128, 128, 0.16);
+}
+
+.title {
+    width: 598px;
+    height: 50px;
+    padding-top: 15px;
+    background-color: #003366;
+    color: white;
+    font-weight: bold;
+    padding-left: 212px;
+    margin-left: -15px;
+}
+
+.container {
+    width: 600px;
+    height: 599px;
+    border: 1px solid gray;
+    position: relative;
+}

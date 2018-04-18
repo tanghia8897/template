@@ -1,0 +1,297 @@
+*{margin: 0; padding: 0;}
+
+.footer {
+    border-top: 1px solid gray;
+}
+
+.ftphai img {
+    padding-bottom: 24px;
+    margin-top: 10px;
+}
+
+.ftphai select {
+    width: 125px;
+    height: 17px;
+}
+
+.ftphai {
+    position: absolute;
+    right: 64px;
+}
+
+.fttrai a {
+    color: #2b2828;
+    font-size: 13px;
+    padding-left: 10px;
+}
+
+.fttrai p {
+    color: rgba(128, 128, 128, 0.49);
+    padding-left: 50px;
+    float: left;
+    font-size: 13px;
+    padding-top: 2px;
+}
+
+.fttrai {
+    float: left;
+    margin-top: 5px;
+}
+
+._1 h6,._2 h6,._3 h6,._4 h6,._5 h6, ._7 h6, ._8 h6, ._9 h6 {
+    font-size: 15px;
+}
+
+.timhieuthem a {
+    float: left;
+    padding-right: 4px;
+    padding-left: 23px;
+}
+
+.timhieuthem {
+    padding-left: 718px;
+    padding-top: 30px;
+    font-size: 13px;
+}
+
+a.btn.btn-success.btn-sm {
+    margin-left: 210px;
+    background-color: #0275d8;
+    margin-top: 30px;
+}
+
+._9 select {
+    margin-left: 20px;
+    width: 300px;
+}
+
+._8 input[type="text"] {
+    margin-left: 20px;
+    width: 300px;
+}
+
+._8 h6,._9 h6 {padding-top: 20px;padding-left: 20px;font-size: 16px;}
+
+.anh:before {
+    content: "+84";
+    padding-left: 40px;
+    position: relative;
+    top: -4px;
+}
+
+i.fa.fa-sort-desc:before {}
+
+._7 h6 {
+    padding-top: 18px;
+    margin-bottom: -10px;
+    padding-left: 19px;
+}
+
+._7 input[type="text"] {
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.anh:before {
+}
+
+i.fa.fa-sort-desc {
+    position: relative;
+    left: 20px;
+    top: -31px;
+    font-size: 11px;
+    color: blue;
+}
+
+i.fa.fa-sort-desc:before {}
+
+i.fa.fa-sort-desc:before {
+}
+
+._7 div.anh {
+    background-image: url(images/3.png);
+    width: 17px;
+    height: 15px;
+    background-position: 16px -965px;
+    position: absolute;
+    top: 450px;
+    left: 30px;
+}
+
+._5 h6 {
+    margin-bottom: -15px;
+}
+
+._4 h6 {
+    margin-bottom: -15px;
+}
+
+._3 h6 {
+    margin-bottom: -15px;
+}
+
+._2 h6 {
+    margin-bottom: 9px;
+}
+
+._1 h6 {margin-bottom: 8px;}
+
+input[type="password"] {
+    width: 305px;
+    height: 25px;
+}
+
+._2 input[type="text"] {
+    width: 305px;
+    height: 25px;
+}
+
+._5 input[type="text"] {
+    width: 90px;
+}
+
+._5 option {
+    width: 130px;
+    height: 25px;
+}
+
+._5 input[type="text"] {
+    width: 60px;
+    padding-left: 7px;
+    font-size: 13px;
+    height: 25px;
+}
+
+._6 {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+._5 {
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+._4 {padding-left: 20px;padding-top: 15px;}
+
+._3 {
+    padding-left: 20px;
+    padding-top: 14px;
+}
+
+._2 {
+    padding-top: 20px;
+    padding-left: 17px;
+}
+
+._1 input[type="text"] {
+    width: 150px;
+    height: 25px;
+    padding-left: 5px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+._1 {
+    width: 350px;
+    padding-left: 12px;
+}
+
+.phai {
+    width: 360px;
+    height: 730px;
+    position: relative;
+    right: -716px;
+    top: 27px;
+    background-color: #F1F1F1;
+    padding-top: 20px;
+}
+
+.trai p {
+    color: #737373;
+    font-size: 13px;
+}
+
+.trai img {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.trai h4 {
+    font-size: 22px;
+    font-family: 'Open Sans', arial;
+    padding-bottom: 0px;
+    color: #737373;
+}
+
+.trai {
+    text-align: center;
+    position: absolute;
+    left: 175px;
+    padding-top: 45px;
+}
+
+.bodykk {
+    position: relative;
+    width: 100%;
+    height: 1000px;
+}
+
+.giua h3 {
+    text-align: center;
+*{
+    margin: 0;
+    padding: 0;}    .banner .btn.btn-primary.btn-sm {
+    position: absolute;
+    right: 50px;
+    top: 20px;  }    .banner
+    img {      float: left;
+    padding-left: 45px;
+    width: 145px;
+    padding-top: 18px;  }    .banner {
+    height: 70px;
+    background-color: #F1F1F1;
+    border: 2px solid #e4d7d7;
+    position: relative;  }
+*{
+    margin: 0;
+    padding: 0;}    .banner .btn.btn-primary.btn-sm {
+    position: absolute;
+    right: 50px;
+    top: 20px;  }    .banner
+    img {      float: left;
+    padding-left: 45px;
+    width: 145px;
+    padding-top: 18px;  }    .banner {
+    height: 70px;
+    background-color: #F1F1F1;
+    border: 2px solid #e4d7d7;
+    position: relative;  }
+    font-family: 'Open Sans', arial;
+    font-family: 'Open Sans', arial;
+    padding-top: 30px;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.73);
+    font-weight: 100;
+}
+
+.banner .btn.btn-primary.btn-sm {
+    position: absolute;
+    right: 50px;
+    top: 20px;
+}
+
+.banner img {
+    float: left;
+    padding-left: 45px;
+    width: 145px;
+    padding-top: 18px;
+}
+
+.banner {
+    height: 70px;
+    background-color: #F1F1F1;
+    border: 1px solid #e4d7d7;
+    position: relative;
+} 

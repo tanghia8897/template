@@ -1,0 +1,148 @@
+*{margin: 0; padding: 0;}
+.card-block p { 
+font-family: 'Crimson Text', serif;
+ }
+
+.spmoi h3 {
+    padding-left: 282px;
+    font-family: 'Crimson Text', serif;
+    padding-top: 60px;
+}
+
+.topheader {
+    background-color: #353c3e;
+    height: 80px;
+}
+.topheader p {
+    color: #959595;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 33px;
+}
+.bottomheader .trongsuot {
+    background-color: transparent;
+}
+.sr {
+    background-color: transparent;
+    height:  20px;
+}
+.bottomheader {
+    
+    background-color: #40494c;
+    height: 62px;
+    border-bottom: 3px solid #040505;
+}
+.bottomheader ul.navbar-nav li.nav-item a.nav-link:after {
+    content: "/";
+}
+.bottomheader ul.navbar-nav li.nav-item a.nav-link {
+    text-transform: uppercase;
+    color: #717b7e;
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top .carousel-item img {
+    height: 550px !important;   
+}
+.bottomheader ul.navbar-nav li.nav-item a.nav-link:hover {
+    color: black;
+}
+
+.memenu li{
+      margin: 0 0 1px 0;
+      /*list-style: none;*/
+      /*background-color: #cc3366;
+      color: #fff;*/
+      width: 120px;
+      height: 25px;
+      line-height: 25px;
+      padding-left: 10px;
+    }
+
+.sub-menu{
+  visibility: hidden;
+   
+}
+.bottomheader ul.navbar-nav li.nav-item a.nav-link:hover .sub-menu{
+    visibility: visible;
+    position: absolute;
+    z-index: 100;
+}
+hr {
+    width: 90px;
+    border-bottom: 2px solid gray;
+    margin-left: 282px;
+}
+
+/*js*/
+*{margin: 0; padding: 0;}
+
+.den {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.4s;
+    opacity: 0;
+    visibility:  hidden;
+}   
+.len {
+    opacity: 1;
+    visibility: visible;
+}
+.dichphai {
+    transform: translateX(300px);
+}
+
+.nut {
+    width: 100px;
+    margin-left: 5px;
+    margin-right: auto;
+    display: block;
+    margin-top: -49px;
+}
+
+.menutrai {
+    background: #5cb85c;
+    width: 300px;
+    position: fixed;
+    top: 0px;
+    left: -32px;
+    z-index: 1;
+    transition: 0.4s;
+    height: 100%;
+}
+.menutrai.vetrai {
+    transform: translateX(-100%);
+}
+
+h3.display-3.text-xs-center {
+    font-size: 40px;
+    color: white;
+    padding-top: 15px;
+}
+
+li.list-group-item {
+    background: none;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 64px;
+}
+
+.noidungto {
+    height: 100%;
+    transition: 0.4s;
+    padding-top: 10%;
+    box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+    overflow-x: hidden;
+} 
+/*end js*/

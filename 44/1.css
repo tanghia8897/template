@@ -1,0 +1,57 @@
+*{margin: 0; padding: 0;}
+
+.declick i.fa {
+    font-size: 20px;
+}
+
+.declick {
+    padding: 13px 16px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+._khoi {
+    float: left;
+    position: relative;
+    perspective: 500px;
+}
+
+.thanhxanh {
+    height: 50px;
+    background-color: #3b5998;
+    padding-left: 700px;
+} 
+.mautrang {
+	color: white;	
+}
+.dehienthi {
+    position: absolute;
+    width: 150px;
+    font-size: 13px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dehienthi:after {
+    content: "";
+    position: relative;
+    top: -157px;
+    left: 3px;
+    width: 0px;
+    height: 0px;
+    border: 20px solid rgba(165, 42, 42, 0);
+    border-bottom-color: white;
+    
+}
+.ra	{
+	opacity: 1;
+	visibility: visible;
+    animation: len 0.3s forwards;
+}
+
+@-webkit-keyframes len {
+    from{
+         transform: rotateY(90deg); opacity:  0; transform-origin: 100% 100%
+    }
+    to{transform: rotateY(0deg); opacity: 1; transform-origin: 100% 100%}
+}

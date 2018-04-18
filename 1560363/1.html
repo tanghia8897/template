@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	<title> Example </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">  
+	<script type="text/javascript" src="vendor/bootstrap.js"></script>
+ 	<script type="text/javascript" src="1.js" language="javascript"></script>
+	<link rel="stylesheet" href="vendor/bootstrap.css">
+	<link rel="stylesheet" href="vendor/font-awesome.css">
+ 	<link rel="stylesheet" href="1.css">
+</head>
+<body >
+ 	<div class="container">
+		<div class="title">ĐĂNG KÍ HỌC PHẦN</div>
+		<hr>
+		<form action="" class="ipForm" id="contact">
+			<div class="ms">
+				Mã số: <input type="text" name="ipMaSo" id="idmaso"  >
+				<span class="error" id="errorMS"></span> <br>
+			</div>
+			<div class="hoten">
+				Họ và tên: <input type="text" name="ipHoTen" id="idhoten">
+				<span class="error" id="errorHT"></span><br>
+			</div>
+			<div class="diachi">
+				Địa chỉ: <input type="text" name="ipDiaChi" id="iddiachi">
+				<span class="error" id="errorDC"></span><br>
+			</div>
+			<div class="dienthoai">
+				Diện thoại: <input type="text" name="ipDienThoai" id="iddienthoai">
+				<span class="error" id="errorDT"></span><br>
+			</div>
+			<div class="gioitinh">
+				Giới tính: <input type="radio" name="ipGioiTinh" checked="checked"> Nam
+				<input type="radio" name="ipGioiTinh"> Nữ <br>
+			</div>
+			Ngày sinh:
+ 			<input type="text" placeholder="Ngày" id="idNgay">
+ 				<select name="kkwa" id="idThang">
+ 						<option value="">
+ 							Tháng 1
+ 						</option>
+ 						<option value="">
+ 							Tháng 2
+ 						</option>
+ 						<option value="">
+ 							Tháng 3
+ 						</option>
+ 						<option value="">
+ 							Tháng 4
+ 						</option>
+ 						<option value="">
+ 							Tháng 5
+ 						</option>
+ 						<option value="">
+ 							Tháng 6
+ 						</option>
+ 						<option value="">
+ 							Tháng 7
+ 						</option>
+ 						<option value="">
+ 							Tháng 8
+ 						</option>
+ 						<option value="">
+ 							Tháng 9
+ 						</option>
+ 						<option value="">
+ 							Tháng 10
+ 						</option>
+ 						<option value="">
+ 							Tháng 11
+ 						<option value="">
+ 							Tháng 12
+ 						</option>	
+
+ 				</select>
+ 				<input type="text" placeholder="Năm" id="idNam"> <br>
+ 				<div class="email">
+ 					Email: <input type="email" name="ipEmail" placeholder="@gmail.com" id="email">
+ 					<span class="error" id="errorEM"></span>
+ 				</div>
+
+
+
+		</form> <!-- end form -->
+
+		<form action="" class="frm2" ">
+			<label >Các môn học</label>
+				<select name="cars" multiple class="cllb1" id="sourID">
+				  <option value="volvo"> LT Hướng Đối Tượng </option>
+				  <option value="saab">Cấu Trúc Dữ Liệu</option>
+				  <option value="opel">LT C Trên Window</option>
+				  <option value="audi">Trí Tuệ Nhân Tạo</option>
+				  <option value="audi">CSDL và Web</option>
+				  <option value="audi">CD java</option>
+				</select>
+			<div class="nuts">
+				<a href="#" onclick="listbox_moveacross(&#39;sourID&#39;, &#39;destID&#39;)">></a> <br>
+				<a href="#" onclick="listbox_moveacross(&#39;sourID&#39;, &#39;destID&#39;)">>></a> <!-- &#39;s&#39; == 's' --> <br>
+				<a href="#" onclick="listboxkk(&#39;sourID&#39;, &#39;destID&#39;)"><</a> <br>
+				<a href="#" onclick="listboxkk(&#39;sourID&#39;, &#39;destID&#39;)"><<</a>
+			</div>
+			<label id="lb">Các môn học được chọn</label>
+			<select name="" id="destID" multiple class="cllb2">
+				<option value="volvo"> Cơ Sở Dữ Liệu </option>
+				<option value="saab"> Hợp Ngữ</option>
+			</select>
+			<input type="submit" name="dangky" value="Đăng Ký" id="iddangky" onclick="vailor(); return false;">
+			<input type="submit" name="xoa" value="Xóa" id="idxoa">
+			<input type="submit" name="ok" value="OK" id="idok" onclick="MessageBox_ShowAll()">
+		</form>
+	</div> <!-- end container -->
+		
+</body>
+</html>

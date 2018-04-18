@@ -1,0 +1,51 @@
+*{margin: 0; padding: 0;}
+
+h3 {font-family: 'Encode Sans Condensed', sans-serif;font-size: 38px;}
+
+.col-xs-7.phantext {
+    padding-top: 30px;
+    margin-left: 10px;
+    padding-right: 35px;
+}
+
+.noidung {
+    background: rgba(128, 128, 128, 0.29);
+    padding-bottom: 80px;
+}
+
+.media {
+    background: white;
+}
+
+.navbar-light.menutop .navbar-nav a.nav-link {
+    padding: 90px 5px 0 5px;
+    color: rgba(255, 255, 255, 0.68);
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-light.menutop .navbar-nav a.nav-link:hover {
+    color: white;
+}
+
+
+.navbar.navbar-light.bg-faded{
+	background-color: transparent;
+}
+
+.nav.navbar-nav.float-xs-right {
+	margin-right: 60px; 
+}
+.collapse.navbar-toggleable-xs.navbar-brand img {
+	width: 80px
+}
+
+.navbar-brand {
+	padding-top: 65px;
+	padding-left: 60px;
+}
+
+.col-xs-5.phananh {
+    margin: 0;
+    padding: 0;
+}

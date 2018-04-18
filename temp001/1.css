@@ -1,0 +1,53 @@
+*{margin: 0; padding: 0;}
+
+.den {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.nut {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.menutrai {
+    background: #5cb85c;
+    width: 300px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    transition: 0.4s;
+}
+
+h3.display-3.text-xs-center {
+    font-size: 40px;
+    color: white;
+    padding-top: 15px;
+}
+
+li.list-group-item {
+    background: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.noidungto {
+    height: 100%;
+    transition: 0.4s;
+    padding-top: 10%;
+    box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+} 

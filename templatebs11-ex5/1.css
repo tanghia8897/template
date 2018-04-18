@@ -1,0 +1,227 @@
+*{margin: 0; padding: 0;}
+
+
+.logo {
+	transition: 0.5s;
+}
+.logo.chucam {
+	background-color: white;
+	color: #ec6952  !important;
+}
+
+.ungtuyen p {
+    color: white;
+}
+.ungtuyen h4 {
+	padding: 65px;
+	color: white;
+	font-size: 42px;
+}
+
+.ungtuyen {
+	background-image: url(images/2.jpg);
+	background-image: cover;
+	width: 100%;
+	height: 400px;
+}
+
+.carousel-inner {
+    background: rgba(255, 255, 255, 0.48);
+    padding-bottom: 100px;
+}
+.slide.carousel-inner.carousel-item {
+	background-color: rgba(128, 128, 128, 0.14);
+	padding-bottom: 20px;
+}	
+.slide {
+	background-color: rgba(128, 128, 128, 0.14);
+}
+.tdto h4 {
+	font-size: 40px;
+	padding: 50px;
+	font-family: 'Roboto', sans-serif;
+}
+.carousel-indicators li {
+	background: grey;
+}
+.carousel-indicators li.active {
+	background-color: #606c75;
+}
+
+
+.tren p i {
+    font-weight: 100;
+    font-family: inherit;
+    font-style: italic !important;
+    font-size: 10px;
+}
+
+.td p {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.32);
+    padding-bottom: 80px;
+}
+
+.td h2 {
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 40px;
+    padding-top: 75px;
+    font-family: inherit;
+}
+.tren h3 {
+	
+font-size: 30px;
+	
+font-family: inherit;
+	
+color: #606c75;
+	
+line-height: 1.1;
+	
+padding-bottom: 10px;
+}
+p.note {
+
+text-align: center;
+
+color: rgba(128, 128, 128, 0.57);
+
+font-size: 12px;
+
+font-style: italic;
+
+padding-left: 100px;
+}
+
+
+
+
+.menu {
+	background-image: url(images/1.jpg);
+	background-image: cover;
+	width: 100%;
+	height: 700px;
+	position: relative;
+}
+
+.navbar.navbar-light.bg-faded.navbar-fixed-top {
+	background-color: transparent;
+}
+a.logo {
+	font-family: 'Roboto', sans-serif;
+	background-color: #ec6952;
+	font-size: 20px;
+	padding: 15px 25px;
+	font-weight: 900;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	position: relative;
+	top: -8px;
+	color: white;
+	color: white !important;
+}
+.top .mphai a.nav-link {
+	padding: 14px 12px;
+	font-size: 12px;
+	color: #e6e6e6;
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+}
+.top .mphai a.nav-link:hover {
+	color:  #ec6952;
+}
+.top li a.nav-link.nutsignup {
+	color: white;
+	margin-top: 5px;
+	padding: 8px 12px;
+	border-color: white;
+}
+button {
+	background-color: white !important;
+}
+.top li a.nav-link.nutsignup:hover {
+	color: white;
+	background-color: #ec6952;	
+	border-color: #ec6952;
+}
+.banner {
+	position: absolute;
+	top: 200px;
+	z-index: 2;
+}
+.banner h2 {
+    color: white;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+} 
+.banner p {
+
+color: rgba(255, 255, 255, 0.61);
+
+padding-top: 15px;
+
+padding-bottom: 10px;
+}
+.banner a {
+
+padding: 10px 45px;
+
+font-size: 16px;
+
+font-weight: bold;
+
+margin-bottom: 16px;
+
+font-size: 15px;
+}
+.banner a:hover {
+color:  white; 
+background-color: #ec6952;
+border-color: #ec6952;
+}
+
+i.fa.fa-youtube {
+    color: rgba(255, 255, 255, 0.61);
+    font-size: 15px;
+}
+
+@media (max-width: 576px) {
+	*{
+		
+	}
+.banner {
+	text-align: center;
+}
+a.btn.btn-secondary.btn-sm {
+    text-align: center;
+    padding-left: 50px;
+}
+
+.banner p {
+    text-align: center;
+    font-size: 16px;
+}
+
+.banner h2 {
+    text-align: center;
+    font-size: 32px;
+    padding-top: 0px;
+}
+
+.banner p {}
+	a.logo {
+			width: 166px;
+			text-align: center;
+			color: white;
+			top: -17px;
+			margin-left: 55px;
+	}
+	.mphai {
+		background-color: #253340;
+		width: 100%;
+		padding: 15px;
+	}
+}
